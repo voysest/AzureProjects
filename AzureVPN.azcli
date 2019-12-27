@@ -13,7 +13,7 @@ GW1Subnet=10.1.255.0/27
 GW1PubIP=GWVNet1-PubIP
 Conn1=GW1GW2
 
-SharedKey="connection"
+SharedKey="site2site"
 
 # Create a resource group.
 az group create --name $resourceGroupName --location $location1
